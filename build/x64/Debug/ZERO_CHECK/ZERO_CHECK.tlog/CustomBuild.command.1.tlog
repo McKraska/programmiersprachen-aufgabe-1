@@ -1,6 +1,6 @@
-^C:\USERS\JOBST\DESKTOP\PROGRAMMIERSPRACHEN-HELLOWORLD\BUILD\CMAKEFILES\75FE064E7C94150621D366F76A79CB7F\GENERATE.STAMP.RULE
+^G:\GITHUB\TESTAUFGABE1\PROGRAMMIERSPRACHEN-HELLOWORLD\BUILD\CMAKEFILES\DF04935A5105D4476594993907D9DB46\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jobst/Desktop/programmiersprachen-helloworld -BC:/Users/jobst/Desktop/programmiersprachen-helloworld/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/Aufgabenblatt1.sln
+"G:\Program Files\CMake\bin\cmake.exe" -SG:/Github/TestAufgabe1/programmiersprachen-helloworld -BG:/Github/TestAufgabe1/programmiersprachen-helloworld/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/Aufgabenblatt1.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

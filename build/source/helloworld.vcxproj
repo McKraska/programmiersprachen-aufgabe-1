@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1A32DC2A-285C-3651-8AA4-8B99E54A7A04}</ProjectGuid>
+    <ProjectGuid>{A350896D-ACDA-3440-97BC-2E37D75E9A76}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">helloworld.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">helloworld</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">helloworld.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">helloworld</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">helloworld.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">helloworld</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">helloworld.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">helloworld</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,8 +120,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/Debug/helloworld.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/Debug/helloworld.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/Debug/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/Debug/helloworld.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -164,8 +164,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/Release/helloworld.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/Release/helloworld.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/Release/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/Release/helloworld.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,8 +208,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/MinSizeRel/helloworld.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/MinSizeRel/helloworld.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/MinSizeRel/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/MinSizeRel/helloworld.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jobst\Desktop\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\Github\TestAufgabe1\programmiersprachen-helloworld\external\catch-1.4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -251,8 +251,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/RelWithDebInfo/helloworld.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/RelWithDebInfo/helloworld.pdb</ProgramDataBaseFile>
+      <ImportLibrary>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/RelWithDebInfo/helloworld.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/RelWithDebInfo/helloworld.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,10 +260,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jobst\Desktop\programmiersprachen-helloworld\source\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jobst/Desktop/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
+    <CustomBuild Include="G:\Github\TestAufgabe1\programmiersprachen-helloworld\source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/Github/TestAufgabe1/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jobst/Desktop/programmiersprachen-helloworld -BC:/Users/jobst/Desktop/programmiersprachen-helloworld/build --check-stamp-file C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
+"G:\Program Files\CMake\bin\cmake.exe" -SG:/Github/TestAufgabe1/programmiersprachen-helloworld -BG:/Github/TestAufgabe1/programmiersprachen-helloworld/build --check-stamp-file G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,11 +272,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jobst/Desktop/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/Github/TestAufgabe1/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jobst/Desktop/programmiersprachen-helloworld -BC:/Users/jobst/Desktop/programmiersprachen-helloworld/build --check-stamp-file C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
+"G:\Program Files\CMake\bin\cmake.exe" -SG:/Github/TestAufgabe1/programmiersprachen-helloworld -BG:/Github/TestAufgabe1/programmiersprachen-helloworld/build --check-stamp-file G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,11 +285,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jobst/Desktop/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/Github/TestAufgabe1/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jobst/Desktop/programmiersprachen-helloworld -BC:/Users/jobst/Desktop/programmiersprachen-helloworld/build --check-stamp-file C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
+"G:\Program Files\CMake\bin\cmake.exe" -SG:/Github/TestAufgabe1/programmiersprachen-helloworld -BG:/Github/TestAufgabe1/programmiersprachen-helloworld/build --check-stamp-file G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,11 +298,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jobst/Desktop/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/Github/TestAufgabe1/programmiersprachen-helloworld/source/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jobst/Desktop/programmiersprachen-helloworld -BC:/Users/jobst/Desktop/programmiersprachen-helloworld/build --check-stamp-file C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
+"G:\Program Files\CMake\bin\cmake.exe" -SG:/Github/TestAufgabe1/programmiersprachen-helloworld -BG:/Github/TestAufgabe1/programmiersprachen-helloworld/build --check-stamp-file G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -311,16 +311,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\source\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\jobst\Desktop\programmiersprachen-helloworld\source\helloworld.cpp" />
+    <ClCompile Include="G:\Github\TestAufgabe1\programmiersprachen-helloworld\source\helloworld.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jobst\Desktop\programmiersprachen-helloworld\build\ZERO_CHECK.vcxproj">
-      <Project>{014B0336-837B-36D7-B813-EC6C31731464}</Project>
+    <ProjectReference Include="G:\Github\TestAufgabe1\programmiersprachen-helloworld\build\ZERO_CHECK.vcxproj">
+      <Project>{7392AFB3-2003-3B79-B17D-5ECBDFBB820D}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

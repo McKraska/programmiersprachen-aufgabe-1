@@ -1,4 +1,12 @@
-C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/CMakeFiles/helloworld.dir
-C:/Users/jobst/Desktop/programmiersprachen-helloworld/build/source/CMakeFiles/tests.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/CMakeFiles/ALL_BUILD.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/CMakeFiles/ZERO_CHECK.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/helloworld.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/tests.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/tests4.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/tests2.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/tests3.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/tests5.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/tests6.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/tests7.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/mile.dir
+G:/Github/TestAufgabe1/programmiersprachen-helloworld/build/source/CMakeFiles/loesungen.dir

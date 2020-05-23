@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jobst/Desktop/programmiersprachen-helloworld/source
+# Install script for directory: G:/Github/TestAufgabe1/programmiersprachen-helloworld/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
